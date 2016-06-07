@@ -1,28 +1,40 @@
-name: procolocowork
-favicon: null
-layout_spectrum: 0.21578053198754787
-typography_spectrum: 0.6484849490225315
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#17BEBB'
-    - '#2E282A'
-    - '#CD5334'
-    - '#EDB88B'
-    - '#FAD8D6'
-  brandStrength: 0.21284075430594385
-  lightness: 0.49591560545377433
-  saturation: 0.3274801289662719
-  rhythmicContrast: 0.40019829175435007
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.3274801289662719
+  brandStrength: 0.5161117
+  lightness: 0.4959156054537743
+  brandColors:
+    - '#000001'
+    - '#ECECEC'
+    - '#51749A'
+    - '#282B32'
+    - '#DBAFAE'
+  rhythmicContrast: 0.4001982917543501
+typography_spectrum: 0.4087003
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.840494
+favicon: null
+name: procolocowork
